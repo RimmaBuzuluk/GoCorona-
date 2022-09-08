@@ -15,22 +15,23 @@ body{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+     min-height: 100%; 
 }
 /*______________________________________________*/
 
 .main{
-    overflow: hidden;
-    display: flex;
+    flex: 1 1 auto;
+     /* overflow: hidden;*/
+   /* display: flex;
     flex-direction: column;
-    min-height:100%;
+    min-height:100%;  */
 }
 
 
 [class*="__container"]{
     max-width: 1087px;
     margin: 0px auto;
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
 }
 
 /*pc*/
@@ -60,7 +61,7 @@ body{
 }
 
 .header{
-    position: absolute;
+    
     width: 100%;
     top:0;
     left: 0;
